@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900|Lato:300,400,700,900,300italic,400italic,700italic,900italic");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 html,
 body,
 div,
@@ -218,17 +218,17 @@ html {
 }
 
 body {
-  color: #212931
+  color: #1A1920
 }
 
 body,
 input,
 select,
 textarea {
-  font-family: "Lato", "Merriweather", Georgia, serif;
-  font-weight: 300;
+  font-family: "Merriweather", Georgia, serif;
+  font-weight: 400;
   font-size: 1rem;
-  line-height: 2.375
+  line-height: 2.25
 }
 
 a {
@@ -255,7 +255,7 @@ i {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
   margin: 0 0 2rem 0
 }
 
@@ -379,11 +379,11 @@ hr.major {
 input,
 select,
 textarea {
-  color: #212931
+  color: #1A1920
 }
 
 a {
-  color: #212931;
+  color: #1A1920;
   border-bottom-color: rgba(33, 41, 49, 0.5)
 }
 
@@ -403,7 +403,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212931
+  color: #1A1920
 }
 
 blockquote {
@@ -1941,8 +1941,8 @@ input[type="button"],
 button,
 .button {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px #212931;
-  color: #212931 !important
+  box-shadow: inset 0 0 0 2px #1A1920;
+  color: #1A1920 !important
 }
 
 input[type="submit"]:hover,
@@ -1959,7 +1959,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #212931;
+  background-color: #1A1920;
   box-shadow: none;
   color: #fff !important
 }
@@ -2132,9 +2132,9 @@ input[type="radio"]+label {
   display: inline-block;
   font-size: 1rem;
   letter-spacing: 0;
-  font-family: "Lato", "Merriweather", Georgia, serif;
+  font-family: "Merriweather", Georgia, serif;
   text-transform: none;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 2.8rem;
   padding-right: 1rem;
   position: relative
@@ -2195,7 +2195,7 @@ input[type="radio"]+label:before {
 }
 
 label {
-  color: #212931
+  color: #1A1920
 }
 
 input[type="text"],
@@ -2220,7 +2220,7 @@ select {
 
 select option {
   background-color: #fff;
-  color: #212931
+  color: #1A1920
 }
 
 .select-wrapper:before {
@@ -2229,7 +2229,7 @@ select option {
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-  color: #212931
+  color: #1A1920
 }
 
 input[type="checkbox"]+label:before,
@@ -2239,8 +2239,8 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-  background-color: #212931;
-  border-color: #212931;
+  background-color: #1A1920;
+  border-color: #1A1920;
   color: #fff
 }
 
@@ -2763,7 +2763,7 @@ table tbody tr:nth-child(2n+1) {
 }
 
 table th {
-  color: #212931
+  color: #1A1920
 }
 
 table thead {
@@ -2868,7 +2868,7 @@ table.alt tbody tr td {
 }
 
 .pagination a {
-  color: #212931 !important
+  color: #1A1920 !important
 }
 
 .pagination a:hover {
@@ -2906,7 +2906,7 @@ table.alt tbody tr td {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #212931;
+  background-color: #1A1920;
   background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
   background-position: center, center, top center;
@@ -3405,7 +3405,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.links li.active a {
-  color: #1e252d
+  color: #314E45
 }
 
 #nav ul.links li.active a:hover {
@@ -4167,7 +4167,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #navPanelToggle.alt {
   background-color: rgba(255, 255, 255, 0.875);
   box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-  color: #212931
+  color: #1A1920
 }
 
 #navPanelToggle.alt:hover {
@@ -4200,7 +4200,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   -webkit-overflow-scrolling: touch;
   background: #fff;
   box-shadow: none;
-  color: #212931;
+  color: #1A1920;
   height: 100%;
   max-width: 80%;
   overflow-y: auto;
@@ -4275,7 +4275,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #navPanel .close:hover {
-  color: #212931
+  color: #1A1920
 }
 
 @media screen and (max-width: 736px) {
@@ -4411,7 +4411,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .author-box:hover {
-  color: #212931 !important
+  color: #1A1920 !important
 }
 
 .author-box:hover .author-box-name {
